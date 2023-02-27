@@ -1,0 +1,6 @@
+.children {
+    display: grid;
+    grid-template-columns: auto minmax(auto, 35rem);
+    gap: 1rem .5rem;
+    justify-content: flex-start;
+}

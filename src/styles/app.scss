@@ -1,0 +1,19 @@
+.App {
+    position: relative;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 11px;
+}
+
+.step {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    gap: .5rem;
+    margin-top: 1rem;
+    justify-content: flex-end;
+}
