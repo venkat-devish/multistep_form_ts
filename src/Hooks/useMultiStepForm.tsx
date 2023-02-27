@@ -24,8 +24,6 @@ export function useMultiStepForm(steps: ReactElement[]) {
     setCurrentIndex(idx);
   }
 
-  console.log(steps);
-
   return {
     currentIndex,
     step: steps[currentIndex],
